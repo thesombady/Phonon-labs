@@ -1,7 +1,7 @@
 # Phonon-labs
-###Prerequisite
+### Prerequisite
 Jupiter notebook installed with packages *scipy*, *numpy* and *matplotlib*
-###Before you start
+### Before you start
 Before you start you will have to istall *ipwidgets* package. So follow the steps at This site was built using [https://ipywidgets.readthedocs.io/en/latest/user_install.html](https://ipywidgets.readthedocs.io/en/latest/user_install.html).
 
 ### Usage
