@@ -5,7 +5,7 @@ Jupiter notebook installed with packages *scipy*, *numpy* and *matplotlib*
 Before you start you will have to istall *ipwidgets* package. So follow the steps at this homepage:[https://ipywidgets.readthedocs.io/en/latest/user_install.html](https://ipywidgets.readthedocs.io/en/latest/user_install.html).
 
 ### Usage
-Open *RunnerPhonon.ipynb* in your notebook.
+Download both *RunnerPhonon.ipynb* and *cphonon.ipynb* and open *RunnerPhonon.ipynb* in your notebook.
 Left click on the first cell *%run cphonon.ipynb* and press "ctrl + enter" on your keyboard. It will will run the program in the *cphonon.ipynb* and start the interactive lab.
 The output just below the cell should look like this (I have changed some outlines but the output is similar):
 
