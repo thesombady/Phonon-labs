@@ -12,17 +12,13 @@ The output just below the cell should look like this:
 
 ![alt text](https://github.com/AndrissP/Phonon-labs/blob/master/Example.png "Logo Title Text 1")
 
-The output contains two figures, many widgets that control the figures. Widgets are there to be touched and moved. The two figures should automatically update whenever you change some position of a widget. The lowest bottom *"Create animation"* will create an animation with the chosen parameters. It does not happen instanty but takes from a few up to 30 seconds. Please be patient. The creation time depends highly on the frequency &omega, $$\alpha$$. If the frequency is low (for example < 1 our unit) the animation will be creating more frames, thus taking longer time. You can usually increase the frequency and not changing the physics much by increasing the spring constant &gamma. 
+The output contains two figures, many widgets that control the figures. Widgets are there to be touched and moved. The two figures should automatically update whenever you change some position of a widget. The lowest bottom *"Create animation"* will create an animation with the chosen parameters. It does not happen instanty but takes from a few up to 30 seconds. Please be patient. The creation time depends highly on the frequency. If the frequency is low (for example < 1 our unit) the animation will be creating more frames, thus taking longer time. You can usually increase the frequency and not changing the physics much by increasing the spring constant. 
 
 I might happen that the output is put in a small window where you have to scrole down to see something and which is very uncomfortable. To solve this, on the command line press Cell/Current Outputs/ Toggle Scrolling and reexecute the *%run cphonon.ipynb* cell. Now the output should be distributed all the way bellow the input cell.
 
 
 #### Issues:
 * Open-ends does not work at all
-
-* No animation yet
-
-* Number of particles should be even number when boundary conditions are periodic and Masses are different. Otherwise it is not periodic.
 
 * No additional phase plot
 
