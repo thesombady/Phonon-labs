@@ -12,7 +12,7 @@ The output just below the cell should look like this:
 
 ![alt text](https://github.com/AndrissP/Phonon-labs/blob/master/Example.png "Logo Title Text 1")
 
-The output contains two figures, many widgets that control the figures. Widgets are there to be touched and moved. The two figures should automatically update whenever you change some position of a widget. The lowest buttom *"Create animation"* will create an animation with the chosen parameters. It does not happen instantly but takes from a few up to 30 seconds. Please be patient. The creation time depends highly on the frequency. If the frequency is low (for example < 1 our unit) the animation will be creating more frames, thus taking longer time. You can usually increase the frequency and not changing the physics much by increasing the spring constant. 
+The output contains two figures, many widgets that control the figures. Widgets are there to be touched and moved. The two figures should automatically update whenever you change some position of a widget. The lowest buttom *"Create animation"* will create an animation with the chosen parameters. The *"Save animation to mp4"* will create an animation with the chosen parameters and instead of displaying it, it will save to the current folder with a name "PnononOscilMode_a_SpringC_b_N_c.mp4", where in (a,b,c) places are the corresponding values from the chosen ones. The animation createion does not happen instantly but takes from a few up to 30 seconds. Please be patient. The creation time depends highly on the frequency. If the frequency is low (for example < 1 our unit) the animation will be creating more frames, thus taking longer time. You can usually increase the frequency and not changing the physics much by increasing the spring constant. 
 
 When the animation appears it should appear with a slider and several interactive buttons. Enjoy them. The "-"/"+" buttons at the sides increase/decrease the speed of the animation, the next ones jump to the beginning/end of the animation, and the next ones: jump one frame further/back. Other buttons, I think, are intuitive.
 
@@ -20,9 +20,8 @@ I might happen that the output is put in a small window where you have to scroll
 
 
 #### Issues:
-* Open-ends does not work at all
+* Sometimes the interface crushes - the figures stop being interactive and the animation does not get created animore. In this case "Kernel/Restart Kernel" only wont work. You need to press "Kernel/Restart Kernel" and then refresh the page so that everything would work well again.
 
-* No additional phase plot
 
 ### If you want to see what is inside
 If you want to see what the program really does, open also *cphonon.ipynb*. You can run cell by cell by clicking *"ctrl + enter"*. You can also uncomment cell containing the variables (for example containig only #A) and run these cells to see the outputs of each cell. Shortcut for (un-) commenting is *"ctrl + /"*. You can also add your own code add print your own variables. 
