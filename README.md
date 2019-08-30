@@ -3,7 +3,7 @@ Updated 25.08
 ### Prerequisite
 Jupyter notebook installed with packages *scipy*, *numpy* and *matplotlib*
 ### Before you start
-Before you start you will have to istall *ipwidgets* package. So follow the steps at this homepage:[https://ipywidgets.readthedocs.io/en/latest/user_install.html](https://ipywidgets.readthedocs.io/en/latest/user_install.html).
+Before you start you will have to istall *ipywidgets* package. So follow the steps at this homepage:[https://ipywidgets.readthedocs.io/en/latest/user_install.html](https://ipywidgets.readthedocs.io/en/latest/user_install.html).
 
 ### Usage
 Download both *RunnerPhonon.ipynb* and *cphonon.ipynb* and open *RunnerPhonon.ipynb* in your notebook.
