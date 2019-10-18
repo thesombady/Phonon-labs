@@ -5,7 +5,6 @@ Updated 25.08
 ### Before you start
 * Before you start you will have to istall *ipywidgets* package. So follow the steps at this homepage:[https://ipywidgets.readthedocs.io/en/latest/user_install.html](https://ipywidgets.readthedocs.io/en/latest/user_install.html).
 * If you want to save the animation as a mp4 file, then you have to install the package *ffnmpg*. Otherwise, the "save animation" button will do nothing. To install ffmpeg do for example in Windows in he comand line run:
-[https://imagemagick.org/script/download.php](https://imagemagick.org/script/download.php).
 <p align="center">
   conda install -c conda-forge ffmpeg
 </p>
@@ -14,7 +13,7 @@ or
   pip install ffmpeg
 </p>
 or install ImageMagick tool, which you can find here:
-[https://imagemagick.org/script/download.php](https://imagemagick.org/script/download.php) \\
+[https://imagemagick.org/script/download.php](https://imagemagick.org/script/download.php). \\
 In the last case, image magic might turn out to be useful in doing other image manipulations
 ### Usage
 Download both *RunnerPhonon.ipynb* and *cphonon.ipynb* and open *RunnerPhonon.ipynb* in your notebook.
