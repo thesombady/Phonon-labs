@@ -5,6 +5,7 @@ Updated 25.08
 ### Before you start
 * Before you start you will have to istall *ipywidgets* package. So follow the steps at this homepage:[https://ipywidgets.readthedocs.io/en/latest/user_install.html](https://ipywidgets.readthedocs.io/en/latest/user_install.html).
 * If you want to save the animation as a mp4 file, then you have to install the package *ffnmpg*. Otherwise, the "save animation" button will do nothing. To install ffmpeg do for example in Windows in he comand line run:
+[https://ipywidgets.readthedocs.io/en/latest/user_install.html](https://ipywidgets.readthedocs.io/en/latest/user_install.html).
 <p align="center">
   conda install -c conda-forge ffmpeg
 </p>
@@ -15,7 +16,6 @@ or
 or install ImageMagick tool, which you can find here:
 [https://imagemagick.org/script/download.php](https://imagemagick.org/script/download.php) \\
 In the last case, image magic might turn out to be useful in doing other image manipulations
-[https://ipywidgets.readthedocs.io/en/latest/user_install.html](https://ipywidgets.readthedocs.io/en/latest/user_install.html).
 ### Usage
 Download both *RunnerPhonon.ipynb* and *cphonon.ipynb* and open *RunnerPhonon.ipynb* in your notebook.
 Left click on the first cell containing *%run cphonon.ipynb* on the first line. Then press "ctrl + enter" two times on your keyboard. It will run the program in the *cphonon.ipynb* and start the interactive lab. If something does not work, please report to Andris.
