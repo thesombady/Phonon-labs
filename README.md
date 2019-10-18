@@ -12,7 +12,7 @@ or
 <p align="center">
   pip install ffmpeg
 </p>
-or install ImageMagick tool, which you can find here:
+or install ImageMagick tool, which you can find here:\\
 [https://imagemagick.org/script/download.php](https://imagemagick.org/script/download.php). \\
 In the last case, image magic might turn out to be useful in doing other image manipulations
 ### Usage
