@@ -9,7 +9,9 @@ Updated 25.08
   conda install -c conda-forge ffmpeg
 </p>
 or
-pip install ffmpeg
+<p align="center">
+  pip install ffmpeg
+</p>
 or install ImageMagick tool, which you can find here:
 [https://imagemagick.org/script/download.php](https://imagemagick.org/script/download.php)
 In the last case, image magic might turn out to be useful in doing other image manipulations
