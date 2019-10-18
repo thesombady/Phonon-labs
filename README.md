@@ -1,9 +1,18 @@
 # Phonon-labs
 Updated 25.08
 ### Prerequisite
-Jupyter notebook installed with packages *scipy*, *numpy* and *matplotlib*
+* Jupyter notebook installed with packages *scipy*, *numpy* and *matplotlib*
 ### Before you start
-Before you start you will have to istall *ipywidgets* package. So follow the steps at this homepage:[https://ipywidgets.readthedocs.io/en/latest/user_install.html](https://ipywidgets.readthedocs.io/en/latest/user_install.html).
+* Before you start you will have to istall *ipywidgets* package. So follow the steps at this homepage:[https://ipywidgets.readthedocs.io/en/latest/user_install.html](https://ipywidgets.readthedocs.io/en/latest/user_install.html).
+* If you want to save the animation as a mp4 file, then you have to install the package *ffnmpg*. Otherwise, the "save animation" button will do nothing. To install ffmpeg do for example in Windows in he comand line run:
+<p align="center">
+  conda install -c conda-forge ffmpeg
+</p>
+or
+pip install ffmpeg
+or install ImageMagick tool, which you can find here:
+[https://imagemagick.org/script/download.php](https://imagemagick.org/script/download.php)
+In the last case, image magic might turn out to be useful in doing other image manipulations
 
 ### Usage
 Download both *RunnerPhonon.ipynb* and *cphonon.ipynb* and open *RunnerPhonon.ipynb* in your notebook.
