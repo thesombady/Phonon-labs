@@ -15,6 +15,7 @@ or
 or install ImageMagick tool, which you can find here:\\
 [https://imagemagick.org/script/download.php](https://imagemagick.org/script/download.php). \\
 In the last case, image magic might turn out to be useful in doing other image manipulations
+
 ### Usage
 Download both *RunnerPhonon.ipynb* and *cphonon.ipynb* and open *RunnerPhonon.ipynb* in your notebook.
 Left click on the first cell containing *%run cphonon.ipynb* on the first line. Then press "ctrl + enter" two times on your keyboard. It will run the program in the *cphonon.ipynb* and start the interactive lab. If something does not work, please report to Andris.
