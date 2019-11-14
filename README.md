@@ -18,7 +18,7 @@ In the last case, image magic might turn out to be useful in doing other image m
 
 ### Usage
 Download both *RunnerPhonon.ipynb* and *cphonon.ipynb* and open *RunnerPhonon.ipynb* in your notebook.
-Left click on the first cell containing *%run cphonon.ipynb* on the first line. Then press "ctrl + enter" two times on your keyboard. It will run the program in the *cphonon.ipynb* and start the interactive lab. If something does not work, please report to Andris.
+Left click on the first cell containing *%run cphonon.ipynb* on the first line. Then press "ctrl + enter" two times on your keyboard. It will run the program in the *cphonon.ipynb* and start the interactive lab.
 The output just below the cell should look like this:
 
 ![alt text](https://github.com/AndrissP/Phonon-labs/blob/master/Example.png "Logo Title Text 1")
